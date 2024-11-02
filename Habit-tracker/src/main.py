@@ -36,8 +36,7 @@ def main():
 
         if choice == '1':
             email = input("Email: ")
-            password = input("Contraseña: ")
-            response = tracker.register(email, password)
+            response = tracker.register(email,)
             print_response(response)
 
             # Si se requiere cambio de contraseña
